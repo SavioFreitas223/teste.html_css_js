@@ -9,15 +9,18 @@ function carregar(){
 
     foto.src = 'diaft.jpg';
     foto.alt = 'bom dia!'
+    document.body.style.background = '#ffe8b2'
 
   }
   else if (hora >= 13 && hora < 19 ){
 
     foto.src = 'tardeft.jpg'
-    foto.alt = 'boa tarde' 
+    foto.alt = 'boa tarde'
+    document.body.style.background = '#4c6a75' 
   }
   else {
     foto.src = 'noiteft.jpg'
     foto.alt = 'boa noite'
+    document.body.style.background = '#012839'
   }
 }
